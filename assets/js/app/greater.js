@@ -1,5 +1,5 @@
 define(function (require, exports) {
-  var info = require('app/info');
+  var info = require('./info');
   exports.greet = function () {
     return "Greatings from " + info.name + "!";
   }
